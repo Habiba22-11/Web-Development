@@ -1,0 +1,121 @@
+.section_title{
+    /* margin: 20px;    use margin or padding */
+     padding: 20px;  
+     font-size:25px ;
+}
+/* project start */
+.projects{
+    /* display: flex; */
+    /* gap: 20px; */
+    display: grid;
+    /* grid-template-columns: auto auto; */
+    /* grid-template-columns: auto auto; */
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    
+}
+
+.check_all_project {
+    display: flex;
+    justify-content: center;
+     margin-top: 20px; 
+    /* padding: 20px; */
+}
+
+.check_all_project button{
+    padding:10px 20px ;
+    background-color: var(--background-color);
+     /* margin-bottom: 30px;  */
+ border-top:1px solid white ;
+ border-bottom:1px solid white ;
+ /* border-left:1px solid white ; */
+ /* border-right:1px solid white ; */
+ font-size: 30px;
+    
+}
+.project img{
+    width: 100%;
+}
+
+
+/*
+.blog_projects{
+    /* display: flex; */
+    /* gap: 20px; */
+                 /* display: grid; */
+    /* grid-template-columns: auto auto auto; */
+                 /* grid-template-columns: repeat(3,1fr); */
+                     /* gap: 20px; */
+    
+/* } */
+
+
+
+/* project end */
+/* blogs start */
+.my_blogs{
+    /* nije ata korsi */
+     display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+
+
+    /* vdo te ai 2 line korse but amr ata dile ase na */
+    /* display: flex;  */
+     /* justify-content: space-between;  */
+}
+.tag{
+    background-color: var(--font-primary-color);
+    width: fit-content;
+    padding: 17px 30px;
+    border-radius: 35px;
+    margin: 30px 0px;
+}
+.tag h1{
+    color: black;
+}
+/* nije korsi karon amrta ho na... vdo te lage nai ata */
+.blog img{
+    width: 100%;
+}
+
+.date_name{
+  display: flex;
+  gap: 20px;
+}
+.date{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.round_date{
+    width: 15px;
+    height: 15px;
+     background-color: blueviolet; 
+    border-radius: 100%;
+}
+.name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.round_name{
+    width: 15px;
+    height: 15px;
+  background-color: blue;
+    border-radius: 100%;
+}
+
+.blog_title{
+  margin: 30px 0px;
+}
+@media only screen and (min-width:200px) and (max-width:576px) {
+ .projects{
+    grid-template-columns: repeat(1,1fr);   
+}
+.my_blogs{
+    /* flex-direction: column;   ...vdo te */
+
+    /* grid-template-columns: auto;  or */
+      grid-template-columns: repeat(1,1fr);
+}

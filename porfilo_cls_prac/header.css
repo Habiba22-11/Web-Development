@@ -1,0 +1,146 @@
+.header-container
+{
+    height:100%;
+      /* background-color:var(--background-color);  */
+      background-image: url(./Images/banner/s.jpg.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+     font-size: 36px; 
+
+}
+
+
+.nav
+{
+    color: aqua;
+    /* OR akhane */
+     /* background-color: var(--background-color);  */
+
+    padding-top: 20px; 
+    display: flex;
+    gap: 20px;
+    color:var(--font-primary-color) ;
+    justify-content: space-between;
+    background-size: contain;
+}
+
+#right-menu-icon-id
+{
+    width: 180px;
+    text-align: right;
+}
+#right-menu-icon-id img
+{
+    width: 45px;
+    
+}
+.banner_title h1
+{
+        font-size: 100px;
+    text-transform: capitalize;
+ font-weight: bolder; 
+ letter-spacing: 3px;
+ margin: 40px 0px;
+}
+
+.banner_des 
+{
+     font-size: 10px;
+    text-transform: capitalize;
+ font-weight: bolder; 
+ margin: 10px 0px;
+}
+.banner_profile_container{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--font-primary-color);
+    border-bottom: 1px solid var(--font-primary-color);
+}
+.banner_profile_des{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 40px;
+}
+.work_icon_container{
+    display: flex;
+    gap: 10px;
+    padding: 40px 0px;
+    border-bottom: 1px solid var(--font-primary-color);
+   
+}
+.check_icon{
+    width: 40px;
+    height: 40px;
+}
+.banner_img_container{
+    background-color: var(--font-primary-color);
+    width: fit-content;
+}
+#banner_img
+{
+    
+    height: 300px;
+}
+
+
+.complete_project_card h1{
+ font-size: 152px;
+ text-transform: uppercase;
+}
+
+
+.complete_project_card p{
+ font-size: 40px;
+  text-transform: uppercase;
+}
+.complete_project_container{
+    display: flex;
+    /* gap: 50px; */
+    justify-content: space-between;
+    /* flex-direction: row;   ...na dileo hobe karon row akarei asbe */
+}
+.project img{
+     
+     width: 400px;
+}
+.projects{
+    /* display: flex; */
+}
+/* media quer */
+@media only screen and (min-width:200px) and (max-width:576px) {
+    .container{
+        padding: 0px 0px;
+    }
+    .nav{
+        color: blueviolet;
+    }
+
+    .complete_project_container{
+    flex-direction:column;
+}
+.banner_profile_container{
+    display: flex;
+    flex-direction: column;
+}
+   .banner_title h1
+{
+        font-size: 25px;
+   
+}
+.banner_img_container{
+    width: 100%;
+}
+#banner_img
+{
+    width: 100%;
+}
+
+}
+
+
+
+
+
+
