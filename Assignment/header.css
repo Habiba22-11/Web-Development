@@ -1,0 +1,273 @@
+
+.header_container{
+  height: 100vh;
+  
+}
+.nav{
+     display: flex; 
+    justify-content: space-between;
+    /* background-color: black; */
+   /* color: var(--primary-color); */
+   padding-left: 40px;
+    font-family: "Rubik", sans-serif;
+
+}
+.nav h2 {
+    color: var(--primary-color);
+}
+.extra{
+     color: var(--font-primary-color);
+    display: flex;
+    gap: 30px;
+    padding-right: 10px;
+}
+.CV{
+   background-color: var(--primary-color);
+    padding: 10px; 
+   
+}
+.banner_container{
+      background-color:var(--background-color); 
+       color: var(--font-primary-color);
+     display: flex; 
+     padding-left: 40px; 
+}
+/* .banner_title{  */
+      /* display: flex;  */
+     
+ /* }  */
+.banner{
+  display: flex;
+ 
+}
+.color { 
+     color: var(--primary-color); 
+      /* display: flex;   */
+      /* flex-direction: row;   */
+} 
+.banner_des h4{
+  /* text-align: right; */
+  color: darkgray;
+  font-weight: lighter;
+}
+.profile img {
+      /* height: 300px;   */
+      /* width: 300px;   */
+    border-radius: 100%;
+    
+}
+
+.work_container{
+  display: flex;
+   background-color: var(--primary-color);
+   border-radius: 100px;
+     padding: 0px 5px; 
+     width: fit-content;
+}
+.size-6{
+  /* display: flex;
+  flex-direction: column;
+  justify-content: end; */
+  width: 20px;
+}
+.portfilo{
+   /* background-color: var(--primary-color);
+    padding: 10px;  */
+      display: flex;  
+    gap: 20px;
+    /* border-top-left-radius:1px 1px 1px solid  solid  solid var(--font-primary-color) ;
+    border-bottom-right-radius: 1px 1px 1px solid  solid  solid var(--font-primary-color); */
+
+    border-bottom: 1px solid var(--font-primary-color);
+    border-top:1px solid var(--font-primary-color) ;
+    border-left: 1px solid var(--font-primary-color);
+    border-right: 1px solid var(--font-primary-color);
+    
+  
+
+    
+}
+.social_img{
+
+ 
+
+/* padding: 0px;
+gap: 0px;
+opacity: 0px; */
+
+}
+.linkedin{
+  height: 40px;
+  width: 40px;
+}
+.About{
+   padding : 20px; 
+   display: flex; 
+    justify-content: space-between;
+    padding-bottom: 120px;
+  
+}
+.about{
+  text-transform: uppercase;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.ab_des{
+  color: darkgrey;
+}
+.y_10{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.exp{
+   font-size: 12px;
+   text-align: right;
+}
+.exp2{
+font-style: italic;
+padding: 10px;
+}
+.myexp2{
+  font-weight: bolder;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+.exp2_des{
+   font-weight: lighter;
+}
+.awards{
+   padding : 20px; 
+   /* display: flex;  */
+    justify-content: space-between;
+    padding-bottom: 120px;
+  
+}
+.award{
+text-align: center;
+  text-transform: uppercase;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.aw_des{
+  text-align: center;
+  color: darkgrey;
+}
+.mb_app_deg{
+   padding : 20px; 
+    /* display: flex;  */
+    justify-content: space-between;
+    padding-bottom: 120px;
+  
+}
+.mb_app_de{
+ text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.proc{
+  font-weight: bolder;
+}
+.mb_app_des{
+  /* text-align: center; */
+  padding: 10px;
+  color: darkgrey;
+   font-weight: lighter; 
+}
+.mb_app_de{
+  display: flex;
+}
+.ui_deg{
+   /* padding : 20px;  */
+    /* display: flex;  */
+    justify-content: space-between;
+    /* padding-bottom: 120px; */
+  
+}
+.ui_de{
+ text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
+  font-size: 15px;
+  font-weight: lighter;
+}
+.pro{
+  font-weight: bolder;
+}
+.ui_des{
+  /* text-align: center; */
+  /* padding: 10px; */
+  color: darkgrey;
+   font-weight: lighter; 
+}
+.ui_de{
+  display: flex;
+}
+.mportfilo{
+   padding : 20px; 
+   /* display: flex;  */
+    justify-content: space-between;
+    padding-bottom: 120px;
+  
+}
+.mport{
+text-align: center;
+  text-transform: uppercase;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.mport_des{
+  text-align: center;
+  color: darkgrey;
+}
+.des1{
+  /* text-align: center; */
+  color: darkgrey;
+}
+.tit1{
+  font-style: italic;
+}
+.tit2{
+/* text-align: center; */
+  /* text-transform: uppercase; */
+   padding-top: 40px; 
+   padding-bottom: 20px; 
+  font-size: 20px;
+  font-weight: bolder;
+}
+.image{
+   padding-left: 80px; 
+  padding-right: 80px;
+  display: flex;
+  gap: 30px;
+ 
+}
+.extra1{
+     color: var(--font-primary-color);
+    display: flex;
+    gap: 30px;
+    padding-right: 10px;
+    font-weight: lighter;
+    text-align: center;
+}
+.start h2 {
+    color: var(--primary-color);
+    text-align: center;
+}
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+
+}
